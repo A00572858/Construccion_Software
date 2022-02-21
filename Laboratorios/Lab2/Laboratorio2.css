@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font: 1em sans-serif;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    border: 2px solid;
+}
+
+a{
+    color: lightskyblue;
+    text-decoration: underline overline darkblue;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url("paisaje.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    color: whitesmoke;
+    
+}
