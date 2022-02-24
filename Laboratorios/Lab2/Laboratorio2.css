@@ -1,4 +1,4 @@
-body{
+#content{
     margin: 0 auto;
     max-width: 50em;
     font: 1em sans-serif;
@@ -44,5 +44,4 @@ header {
     padding: 10vw 2em;
     text-align: center;
     color: whitesmoke;
-    
 }
