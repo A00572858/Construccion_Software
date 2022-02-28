@@ -48,7 +48,7 @@ function showfibo() {
 const http = require("http");
 const server = http.createServer((request,response) => {
     response.setHeader('Content-Type','text/html');
-    let string = filesystem.readFileSync('Construccion_software/Laboratorios/Lab8/Laboratorio1.html', 'utf-8');
+    let string = filesystem.readFileSync('Laboratorios/Lab8/Laboratorio1.html', 'utf-8');
     response.write(string);
     response.end();
 });
